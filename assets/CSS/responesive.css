@@ -1,0 +1,31 @@
+#list2 {
+  display: flex;
+  justify-content: end;
+
+}
+
+#dropdownMenuButton {
+  display: none;
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+ 
+}
+
+@media (max-width: 1199.98px) {
+ 
+  #list1 {
+    display: none;
+  }
+
+  #dropdownMenuButton {
+    display: block;
+  }
+}
+
+@media (max-width: 1399.98px) {
+ 
+}
