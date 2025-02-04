@@ -27,7 +27,7 @@
     <!-- link js -->
     <script src="./assets/JS/main.js" defer></script>
 
-    <title>Checkout - ComputerShop</title>
+    <title>Checkout</title>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
             <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center align-items-center"
                 onclick="navigation.home()">
                 <img src="/Image/pic3.avif" alt="" id="pic2">
-                <p class="ms-3 text-dark fs-3 text-white" id="logo-name">ComputerShop</p>
+                <p class="ms-3 text-dark fs-3 text-white" id="logo-name">OneStore</p>
             </div>
         </div>
     </div>

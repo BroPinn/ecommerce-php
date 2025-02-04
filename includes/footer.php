@@ -3,10 +3,10 @@
             <div class="row mb-4 ">
                 <div class="col-lg-3 col-md-12 col-sm-12 ">
                     <div class="footer-text pull-left">
-                        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-center align-items-center"
+                        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start align-items-center"
                             onclick="navigation.home()">
-                            <img src="./assets/Image/pic3.avif" alt="" id="pic2" class="ms-5">
-                            <p class="ms-3 text-dark fs-6 text-white" id="logo-name">ComputerShop</p>
+                            <img src="./assets/Image/logo.png" alt="" id="pic2" style="max-height: 35px; object-fit: contain;">
+                            <p class="ms-2 text-white fs-6 mb-0" id="logo-name">OneStore</p>
                         </div>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi non
                             pariatur numquam animi nam at impedit odit nisi.</p>
