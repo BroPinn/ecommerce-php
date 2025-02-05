@@ -11,7 +11,6 @@
 
 #pic2 {
     width: 120px;
-    clip-path: circle(50% at 50% 50%);
 }
 
 ul>li:hover {
