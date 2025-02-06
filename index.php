@@ -3,7 +3,8 @@
 <?php include("./basic.php"); ?>
 
 <body>
-    <?php include("./includes/header.php"); ?>
+    <?php include("./includes/header.php");?>
+    <!-- main content -->
     <div class="container mt-2 " style="height:auto;" id="MainContain">
         <div class="row h-100">
             <div class="col-12 col-lg-6 ">
