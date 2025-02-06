@@ -1,7 +1,7 @@
 // Initialize the navigation object
 const navigation = {
     home: () => window.location.href = 'index.php',
-    checkout: () => window.location.href = 'checkout.php',
+    checkout: () => window.location.href = 'views/checkout.php',
 };
 
 // Initialize the cart functionality
@@ -22,7 +22,7 @@ const initCart = () => {
         localStorage.setItem('cartTotal', totalItems.toString());
 
         // Update checkout page if we're on it
-        if (window.location.pathname.includes('checkout.php')) {
+        if (window.location.pathname.includes('views/checkout.php')) {
             updateCheckoutPage();
         }
     };
@@ -183,7 +183,7 @@ const initCart = () => {
             emptyRow.innerHTML = `
                 <td colspan="6" class="text-center py-4">
                     <h5>Your cart is empty</h5>
-                    <a href="index.php" class="btn btn-primary mt-2">Continue Shopping</a>
+                    <a href="../index.php" class="btn btn-primary mt-2">Continue Shopping</a>
                 </td>
             `;
             oldTable.appendChild(emptyRow);
@@ -241,7 +241,7 @@ const initCart = () => {
     loadCart();
 
     // Initialize checkout page if we're on it
-    if (window.location.pathname.includes('checkout.php')) {
+    if (window.location.pathname.includes('views/checkout.php')) {
         updateCheckoutPage();
     }
 };

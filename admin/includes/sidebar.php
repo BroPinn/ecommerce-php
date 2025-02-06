@@ -4,9 +4,9 @@
     <div class="logo-header" data-background-color="dark">
       <a href="dashboard.php" class="logo">
         <img
-          src="assets/img/kaiadmin/logo_light.svg"
+          src="../assets/Image/logo.png"
           alt="navbar brand"
-          class="navbar-brand"
+          class="navbar-brand h-100"
           height="20" />
       </a>
       <div class="nav-toggle">
@@ -87,8 +87,8 @@
         </li>
         <li class="nav-item">
           <a href="widgets.html">
-            <i class="fas fa-desktop"></i>
-            <p>Widgets</p>
+          <i class="fas fa-credit-card"></i>
+            <p>Payments</p>
             <span class="badge badge-success">4</span>
           </a>
         </li>

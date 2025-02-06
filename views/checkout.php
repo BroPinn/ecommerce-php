@@ -17,15 +17,15 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
     <!-- css -->
-    <link rel="stylesheet" href="./assets/CSS/index.css">
-    <link rel="stylesheet" href="./assets/CSS/checkout.css">
-    <link rel="stylesheet" href="./assets/CSS/responesive.css">
+    <link rel="stylesheet" href="../assets/CSS/index.css">
+    <link rel="stylesheet" href="../assets/CSS/checkout.css">
+    <link rel="stylesheet" href="../assets/CSS/responesive.css">
 
     <!-- boxicon -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
     <!-- link js -->
-    <script src="./assets/JS/main.js" defer></script>
+    <script src="../assets/JS/main.js" defer></script>
 
     <title>Checkout</title>
 </head>
@@ -37,7 +37,7 @@
         <div class="row">
             <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center align-items-center"
                 onclick="navigation.home()">
-                <img src="/Image/pic3.avif" alt="" id="pic2">
+                <img src="../assets/Image/logo.png" alt="" id="pic2">
                 <p class="ms-3 text-dark fs-3 text-white" id="logo-name">OneStore</p>
             </div>
         </div>
@@ -167,7 +167,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script
         src="https://www.paypal.com/sdk/js?client-id=AVWfc9_4U_NIBAWBa6nDkHyt2mzokJv4na1uXS4nLy_YN_gfLRJLS3ID3YFqKGdla2DpAMSUPGM9YH5u&currency=USD"></script>
-    <script src="./assets/JS/paypal.js"></script>
+    <script src="../assets/JS/paypal.js"></script>
 </body>
 
 </html>

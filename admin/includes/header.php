@@ -13,8 +13,9 @@ if ($result->num_rows > 0) {
     $admin = $result->fetch_assoc();
     $username = htmlspecialchars($admin['username']);
     $email = htmlspecialchars($admin['gmail']);
+    // Check if image exists and is not empty
     $profileImage = !empty($admin['img']) 
-        ? '../uploads/admin_profiles/' . htmlspecialchars($admin['img']) 
+        ? 'data:image/jpeg;base64,'.base64_encode($admin['img'])  // Convert BLOB to base64
         : 'assets/img/profile.jpg';
 } else {
     session_destroy();
@@ -26,11 +27,11 @@ if ($result->num_rows > 0) {
   <div class="main-header-logo">
     <!-- Logo Header -->
     <div class="logo-header" data-background-color="dark">
-      <a href="#" class="logo">
+      <a href="dashboard.php" class="logo">
         <img
-          src=""
+          src="../assets/Image/logo.png"
           alt="navbar brand"
-          class="navbar-brand"
+          class="navbar-brand h-100"
           height="20" />
       </a>
       <div class="nav-toggle">
@@ -123,44 +124,6 @@ if ($result->num_rows > 0) {
                       <span class="time">5 minutes ago</span>
                     </div>
                   </a>
-                  <a href="#">
-                    <div class="notif-img">
-                      <img
-                        src="assets/img/chadengle.jpg"
-                        alt="Img Profile" />
-                    </div>
-                    <div class="notif-content">
-                      <span class="subject">Chad</span>
-                      <span class="block"> Ok, Thanks ! </span>
-                      <span class="time">12 minutes ago</span>
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div class="notif-img">
-                      <img
-                        src="assets/img/mlane.jpg"
-                        alt="Img Profile" />
-                    </div>
-                    <div class="notif-content">
-                      <span class="subject">Jhon Doe</span>
-                      <span class="block">
-                        Ready for the meeting today...
-                      </span>
-                      <span class="time">12 minutes ago</span>
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div class="notif-img">
-                      <img
-                        src="assets/img/talha.jpg"
-                        alt="Img Profile" />
-                    </div>
-                    <div class="notif-content">
-                      <span class="subject">Talha</span>
-                      <span class="block"> Hi, Apa Kabar ? </span>
-                      <span class="time">17 minutes ago</span>
-                    </div>
-                  </a>
                 </div>
               </div>
             </li>
@@ -211,28 +174,6 @@ if ($result->num_rows > 0) {
                         Rahmad commented on Admin
                       </span>
                       <span class="time">12 minutes ago</span>
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div class="notif-img">
-                      <img
-                        src="assets/img/profile2.jpg"
-                        alt="Img Profile" />
-                    </div>
-                    <div class="notif-content">
-                      <span class="block">
-                        Reza send messages to you
-                      </span>
-                      <span class="time">12 minutes ago</span>
-                    </div>
-                  </a>
-                  <a href="#">
-                    <div class="notif-icon notif-danger">
-                      <i class="fa fa-heart"></i>
-                    </div>
-                    <div class="notif-content">
-                      <span class="block"> Farrah liked Admin </span>
-                      <span class="time">17 minutes ago</span>
                     </div>
                   </a>
                 </div>

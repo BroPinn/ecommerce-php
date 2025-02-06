@@ -12,6 +12,7 @@
     <!-- css -->
     <link rel="stylesheet" href="./assets/CSS/index.css">
     <link rel="stylesheet" href="./assets/CSS/responesive.css">
+    <link rel="stylesheet" href="./assets/CSS/checkout.css">
     <link rel="stylesheet" href="./assets/CSS/products.css">
     <!-- boxicon -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
