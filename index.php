@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include("./basic.php");?>
+<?php include("./basic.php"); ?>
+
 <body>
-    <?php include("./includes/header.php");?>
-    <!-- main content -->
+    <?php include("./includes/header.php"); ?>
     <div class="container mt-2 " style="height:auto;" id="MainContain">
         <div class="row h-100">
             <div class="col-12 col-lg-6 ">
@@ -95,7 +95,8 @@
                             </p>
                             <p class="price text-center">$999</p>
                             <button class="btn btn-primary add-to-cart">
-                                <span class="material-symbols-outlined align-middle me-1" style="font-size: 16px;">shopping_cart</span>
+                                <span class="material-symbols-outlined align-middle me-1"
+                                    style="font-size: 16px;">shopping_cart</span>
                                 Add to Cart
                             </button>
                         </div>
@@ -116,13 +117,14 @@
                             </p>
                             <p class="price text-center">$899</p>
                             <button class="btn btn-primary add-to-cart">
-                                <span class="material-symbols-outlined align-middle me-1" style="font-size: 16px;">shopping_cart</span>
+                                <span class="material-symbols-outlined align-middle me-1"
+                                    style="font-size: 16px;">shopping_cart</span>
                                 Add to Cart
                             </button>
                         </div>
                     </div>
                 </div>
-            </div>     
+            </div>
             <div class="col-lg-2 col-md-4 col-sm-6">
                 <div class="card product-card" data-product-id="laptop_003">
                     <div class="card-body">
@@ -137,7 +139,8 @@
                             </p>
                             <p class="price text-center">$899</p>
                             <button class="btn btn-primary add-to-cart">
-                                <span class="material-symbols-outlined align-middle me-1" style="font-size: 16px;">shopping_cart</span>
+                                <span class="material-symbols-outlined align-middle me-1"
+                                    style="font-size: 16px;">shopping_cart</span>
                                 Add to Cart
                             </button>
                         </div>
@@ -158,7 +161,8 @@
                             </p>
                             <p class="price text-center">$899</p>
                             <button class="btn btn-primary add-to-cart">
-                                <span class="material-symbols-outlined align-middle me-1" style="font-size: 16px;">shopping_cart</span>
+                                <span class="material-symbols-outlined align-middle me-1"
+                                    style="font-size: 16px;">shopping_cart</span>
                                 Add to Cart
                             </button>
                         </div>
@@ -179,7 +183,8 @@
                             </p>
                             <p class="price text-center">$999</p>
                             <button class="btn btn-primary add-to-cart">
-                                <span class="material-symbols-outlined align-middle me-1" style="font-size: 16px;">shopping_cart</span>
+                                <span class="material-symbols-outlined align-middle me-1"
+                                    style="font-size: 16px;">shopping_cart</span>
                                 Add to Cart
                             </button>
                         </div>
@@ -200,14 +205,15 @@
                             </p>
                             <p class="price text-center">$999</p>
                             <button class="btn btn-primary add-to-cart">
-                                <span class="material-symbols-outlined align-middle me-1" style="font-size: 16px;">shopping_cart</span>
+                                <span class="material-symbols-outlined align-middle me-1"
+                                    style="font-size: 16px;">shopping_cart</span>
                                 Add to Cart
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <!-- end new products content -->
@@ -233,7 +239,8 @@
                             </p>
                             <p class="price text-center">$999</p>
                             <button class="btn btn-primary add-to-cart">
-                                <span class="material-symbols-outlined align-middle me-1" style="font-size: 16px;">shopping_cart</span>
+                                <span class="material-symbols-outlined align-middle me-1"
+                                    style="font-size: 16px;">shopping_cart</span>
                                 Add to Cart
                             </button>
                         </div>
@@ -254,7 +261,8 @@
                             </p>
                             <p class="price text-center">$899</p>
                             <button class="btn btn-primary add-to-cart">
-                                <span class="material-symbols-outlined align-middle me-1" style="font-size: 16px;">shopping_cart</span>
+                                <span class="material-symbols-outlined align-middle me-1"
+                                    style="font-size: 16px;">shopping_cart</span>
                                 Add to Cart
                             </button>
                         </div>
@@ -275,7 +283,8 @@
                             </p>
                             <p class="price text-center">$799</p>
                             <button class="btn btn-primary add-to-cart">
-                                <span class="material-symbols-outlined align-middle me-1" style="font-size: 16px;">shopping_cart</span>
+                                <span class="material-symbols-outlined align-middle me-1"
+                                    style="font-size: 16px;">shopping_cart</span>
                                 Add to Cart
                             </button>
                         </div>
@@ -296,7 +305,8 @@
                             </p>
                             <p class="price text-center">$899</p>
                             <button class="btn btn-primary add-to-cart">
-                                <span class="material-symbols-outlined align-middle me-1" style="font-size: 16px;">shopping_cart</span>
+                                <span class="material-symbols-outlined align-middle me-1"
+                                    style="font-size: 16px;">shopping_cart</span>
                                 Add to Cart
                             </button>
                         </div>
@@ -317,7 +327,8 @@
                             </p>
                             <p class="price text-center">$799</p>
                             <button class="btn btn-primary add-to-cart">
-                                <span class="material-symbols-outlined align-middle me-1" style="font-size: 16px;">shopping_cart</span>
+                                <span class="material-symbols-outlined align-middle me-1"
+                                    style="font-size: 16px;">shopping_cart</span>
                                 Add to Cart
                             </button>
                         </div>
@@ -338,14 +349,15 @@
                             </p>
                             <p class="price text-center">$1,299</p>
                             <button class="btn btn-primary add-to-cart">
-                                <span class="material-symbols-outlined align-middle me-1" style="font-size: 16px;">shopping_cart</span>
+                                <span class="material-symbols-outlined align-middle me-1"
+                                    style="font-size: 16px;">shopping_cart</span>
                                 Add to Cart
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <?php include('./includes/footer.php'); ?>
