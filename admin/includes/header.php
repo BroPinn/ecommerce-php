@@ -1,8 +1,8 @@
 <?php
 include('../config.php');
 if (!isset($_SESSION['adminID'])) {
-    header("Location: ../index.php");
-    exit();
+  header("Location: ../index.php");
+  exit();
 }
 $adminID = $_SESSION['adminID'];
 $stmt = $conn->prepare("SELECT username, gmail, img FROM tbl_admin WHERE adminID = ?");
@@ -10,17 +10,17 @@ $stmt->bind_param("i", $adminID);
 $stmt->execute();
 $result = $stmt->get_result();
 if ($result->num_rows > 0) {
-    $admin = $result->fetch_assoc();
-    $username = htmlspecialchars($admin['username']);
-    $email = htmlspecialchars($admin['gmail']);
-    // Check if image exists and is not empty
-    $profileImage = !empty($admin['img']) 
-        ? 'data:image/jpeg;base64,'.base64_encode($admin['img'])  // Convert BLOB to base64
-        : 'assets/img/profile.jpg';
+  $admin = $result->fetch_assoc();
+  $username = htmlspecialchars($admin['username']);
+  $email = htmlspecialchars($admin['gmail']);
+  // Check if image exists and is not empty
+  $profileImage = !empty($admin['img'])
+    ? 'data:image/jpeg;base64,' . base64_encode($admin['img'])  // Convert BLOB to base64
+    : 'assets/img/profile.jpg';
 } else {
-    session_destroy();
-    header("Location: ../index.php");
-    exit();
+  session_destroy();
+  header("Location: ../index.php");
+  exit();
 }
 ?>
 <div class="main-header">
@@ -143,7 +143,7 @@ if ($result->num_rows > 0) {
             aria-haspopup="true"
             aria-expanded="false">
             <i class="fa fa-bell"></i>
-            <span class="notification">4</span>
+            <span class="notification">0</span>
           </a>
           <ul
             class="dropdown-menu notif-box animated fadeIn"
@@ -273,7 +273,7 @@ if ($result->num_rows > 0) {
             </div>
             <span class="profile-username">
               <span class="op-7">Hi,</span>
-              <span class="fw-bold"><?=$username; ?></span>
+              <span class="fw-bold"><?= $username; ?></span>
             </span>
           </a>
           <ul class="dropdown-menu dropdown-user animated fadeIn">
@@ -287,10 +287,10 @@ if ($result->num_rows > 0) {
                       class="avatar-img rounded" />
                   </div>
                   <div class="u-text">
-                    <h4><?=$username; ?></h4>
-                    <p class="text-muted"><?=$email; ?></p>
+                    <h4><?= $username; ?></h4>
+                    <p class="text-muted"><?= $email; ?></p>
                     <a
-                      href="profile.html"
+                      href="views/profile.php"
                       class="btn btn-xs btn-secondary btn-sm">View Profile</a>
                   </div>
                 </div>
