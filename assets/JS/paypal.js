@@ -33,7 +33,7 @@ function initPayPalButton() {
                     cancelButtonText: 'Stay Here'
                 }).then((result) => {
                     if (result.isConfirmed) {
-                        window.location.href = 'index.php';
+                        window.location.href = '../index.php';
                     }
                 });
                 return false;
@@ -153,7 +153,7 @@ function initPayPalButton() {
                         confirmButtonText: 'Continue Shopping'
                     }).then((result) => {
                         if (result.isConfirmed) {
-                            window.location.href = 'index.php';
+                            window.location.href = '../index.php';
                         }
                     });
                 } catch (error) {
