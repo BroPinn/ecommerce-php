@@ -61,6 +61,14 @@
         <div class="col-xl-12 p-0 ps-3">
             <ul class="nav nav-sm p-0" id="list1">
                 <li class="nav-item d-flex align-items-center me-5 p-0">
+                    <i class="bi bi-house-door text-white me-1" style="font-size: 1.5rem;"></i>
+                    <a href="#" class="nav-link text-white p-0" style="font-size: 1rem;">Home</a>
+                </li>
+                <li class="nav-item d-flex align-items-center me-5 p-0">
+                    <i class="bi bi-shop-window text-white me-1" style="font-size: 1.5rem;"></i>
+                    <a href="#" class="nav-link text-white p-0" style="font-size: 1rem;">Shop</a>
+                </li>
+                <li class="nav-item d-flex align-items-center me-5 p-0">
                     <i class="bi bi-laptop text-white me-1" style="font-size: 1.5rem;"></i>
                     <a href="#" class="nav-link text-white p-0" style="font-size: 1rem;">LAPTOP</a>
                 </li>
@@ -77,9 +85,10 @@
                     <a href="#" class="nav-link text-white p-0" style="font-size: 1rem;">PERIPHERAL</a>
                 </li>
                 <li class="nav-item d-flex align-items-center">
-                    <i class="bi bi-tools text-white me-1" style="font-size: 1.5rem;"></i>
-                    <a href="#" class="nav-link text-white p-0" style="font-size: 1rem;">PC BUILDER</a>
+                    <i class="bi bi-people-fill text-white me-1" data-feather="circle" style="font-size: 1.5rem;"></i>
+                    <a href="#" class="nav-link text-white p-0" style="font-size: 1rem;">About US</a>
                 </li>
+                
             </ul>
             <div id="list2" class="text-start mt-1">
                 <i class="bi bi-list text-white" style="font-size: 0.80rem;" class="dropdown" type="button"

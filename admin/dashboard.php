@@ -26,13 +26,13 @@ if (!$admin) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include("./basic.php"); ?>
+<?php include("./includes/head.php");?>
 
 <body>
     <div class="wrapper">
-        <?php include("../admin/includes/sidebar.php"); ?>
+        <?php include("./includes/sidebar.php"); ?>
         <div class="main-panel">
-            <?php include("../admin/includes/header.php"); ?>
+            <?php include("./includes/header.php"); ?>
             <div class="container">
                 <div class="page-inner">
                     <div

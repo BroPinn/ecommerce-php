@@ -44,45 +44,45 @@
         </li>
         <li class="nav-item">
           <a data-bs-toggle="collapse" href="#base">
-            <i class="fas fa-layer-group"></i>
-            <p>Base</p>
-            <span class="caret"></span>
+            <i class="fas fa-th-list"></i>
+            <p>SlideShow</p>
+            
           </a>
 
         </li>
         <li class="nav-item">
           <a data-bs-toggle="collapse" href="#sidebarLayouts">
-            <i class="fas fa-th-list"></i>
-            <p>Sidebar Layouts</p>
-            <span class="caret"></span>
+          <i class="fa fa-box"></i>
+            <p>Product</p>
+            
           </a>
         </li>
         <li class="nav-item">
           <a data-bs-toggle="collapse" href="#forms">
-            <i class="fas fa-pen-square"></i>
-            <p>Forms</p>
-            <span class="caret"></span>
+          <i class="fa fa-briefcase"></i>
+            <p>Categories</p>
+            
           </a>
         </li>
         <li class="nav-item">
           <a data-bs-toggle="collapse" href="#tables">
-            <i class="fas fa-table"></i>
-            <p>Tables</p>
-            <span class="caret"></span>
+          <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            <p>Brands</p>
+            
           </a>
         </li>
         <li class="nav-item">
           <a data-bs-toggle="collapse" href="#maps">
-            <i class="fas fa-map-marker-alt"></i>
-            <p>Maps</p>
-            <span class="caret"></span>
+          <i class="fa fa-file" aria-hidden="true"></i>
+            <p>Pages</p>
+            
           </a>
         </li>
         <li class="nav-item">
           <a data-bs-toggle="collapse" href="#charts">
-            <i class="far fa-chart-bar"></i>
-            <p>Charts</p>
-            <span class="caret"></span>
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <p>User</p>
+            
           </a>
         </li>
         <li class="nav-item">
@@ -103,7 +103,7 @@
           <a data-bs-toggle="collapse" href="#submenu">
             <i class="fas fa-bars"></i>
             <p>Menu Levels</p>
-            <span class="caret"></span>
+            
           </a>
         </li>
       </ul>

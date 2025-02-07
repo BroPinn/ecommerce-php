@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/CSS/products.css">
     <!-- boxicon -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
     <!-- link js -->
     <script src="./assets/JS/main.js" defer></script>
     <title>OneStore</title>

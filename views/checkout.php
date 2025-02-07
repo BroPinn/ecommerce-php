@@ -35,21 +35,15 @@
     <!-- second nav bar -->
     <div class="container-fluid bg-black" id="nav2" style="height: auto;">
         <div class="row">
-            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center align-items-center"
-                onclick="navigation.home()">
+            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center align-items-center">
                 <img src="../assets/Image/logo.png" alt="" id="pic2">
                 <p class="ms-3 text-dark fs-3 text-white" id="logo-name">OneStore</p>
             </div>
         </div>
     </div>
-
-    <!-- Checkout Content -->
-
     <div class="container my-4">
         <div class="row">
-            <!-- Left Column - Billing and Cart -->
             <div class="col-lg-8 mb-4">
-                <!-- Billing Information -->
                 <div class="card shadow-sm mb-4">
                     <div class="card-header bg-white">
                         <h4 class="mb-0">Billing Information</h4>
@@ -83,8 +77,6 @@
                         </form>
                     </div>
                 </div>
-
-                <!-- Shopping Cart Section -->
                 <div class="card shadow-sm">
                     <div class="card-header bg-white">
                         <h4 class="mb-0">Shopping Cart</h4>
@@ -110,8 +102,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Right Column - Order Summary -->
             <div class="col-lg-4">
                 <div class="card shadow-sm">
                     <div class="card-header bg-white">
@@ -131,14 +121,12 @@
                             <strong>Total</strong>
                             <strong id="finalTotal">$0.00</strong>
                         </div>
-                        <!-- PayPal Button Container -->
                         <div id="paypal-button-container" class="mt-3"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Footer -->
     <div class="container-fluid mt-5" id="footer">
         <div class="card mx-5" id="card">
             <div class="row mb-4">

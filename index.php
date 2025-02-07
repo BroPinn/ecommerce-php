@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<?= include("./includes/head.php");?>
+<?php include("./includes/head.php");?>
 <body>
-    <?= include("./includes/header.php");?>
-    <?= include("./includes/slider.php");?>
-    <?= include("content.php");?>
-    <?= include('./includes/footer.php'); ?>
+    <?php include("./includes/header.php");?>
+    <?php include("./includes/slider.php");?>
+    <?php include("content.php");?>
+    <?php include('./includes/footer.php'); ?>
+    </body>
+</html>
