@@ -27,7 +27,7 @@
     <!-- link js -->
     <script src="../assets/JS/main.js" defer></script>
 
-    <title>Checkout</title>
+    <title>Checkout </title>
 </head>
 
 <body>
